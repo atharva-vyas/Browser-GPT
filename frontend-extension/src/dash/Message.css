@@ -1,0 +1,41 @@
+::-webkit-scrollbar {display:none;}
+
+.message {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    color: white;
+}
+
+.message_response {
+    display: flex;
+    align-items: flex-start; /* added property */
+    padding: 0px;
+    color: white;
+    background: #32363a3f;
+}
+
+.message_response > img {
+    margin-top: 2%;
+}
+
+.message__info {
+    margin-left: 5px;
+    width: 80%;
+}
+
+.message__info > h4 {
+    padding-bottom: 0px;
+    text-align: left;
+}
+
+.message__info_response {
+    margin-left: 5px;
+    width: 80%;
+}
+
+.message__timestamp {
+    color: gray;
+    margin-left: 20px;
+    font-size: x-small;
+}

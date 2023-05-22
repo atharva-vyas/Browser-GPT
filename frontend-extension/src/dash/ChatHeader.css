@@ -1,0 +1,47 @@
+.chatHeader0 {
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    padding: 0px;
+}
+
+.chatHeader__hash {
+    font-size: 30px;
+    color: gray;
+    padding: 0px;
+}
+
+.chatHeader__left > h3 {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.chatHeader__back {
+    display: none;
+    cursor: pointer;
+}
+
+.message__info > p {
+    text-align: left;
+}
+
+.message__info_response > p {
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    .chatHeader__back {
+        display: flex;
+        font-size: 30px;
+        color: gray;
+        padding: 0px;
+        padding-right: 15px;
+    }
+
+    .chatHeader__hash {
+        display: none;
+    }
+}

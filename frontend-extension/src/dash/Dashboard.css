@@ -1,0 +1,19 @@
+::-webkit-scrollbar {display:none;}
+
+.app {
+    display: flex;
+}
+
+.appMobile {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .app {
+        display: none;
+    }
+
+    .appMobile {
+        display: flex;
+    }
+}
